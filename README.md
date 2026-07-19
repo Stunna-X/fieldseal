@@ -11,6 +11,7 @@ FieldSeal is an onchain job escrow application built on Monad Testnet. A client 
 - **Network:** Monad Testnet
 - **Contract:** `0x4aBF07920D7f4da27E3eBf34238612407a44A4be`
 - **Explorer:** https://testnet.monadvision.com/address/0x4aBF07920D7f4da27E3eBf34238612407a44A4be
+- **Verified source:** https://sourcify-api-monad.blockvision.org/repo-ui/10143/0x4aBF07920D7f4da27E3eBf34238612407a44A4be
 
 ## The Problem
 
@@ -182,33 +183,33 @@ Expected result:
 
 ```text
 fieldseal/
-├── contracts/
-│   ├── contracts/
-│   │   ├── FieldSeal.sol
-│   │   └── FieldSeal.t.sol
-│   ├── ignition/
-│   │   └── modules/
-│   │       └── FieldSeal.ts
-│   ├── hardhat.config.ts
-│   ├── package.json
-│   └── package-lock.json
-│
-├── web/
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── wagmi.js
-│   │   ├── contracts/
-│   │   │   └── fieldSeal.js
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── .env.example
-│   ├── package.json
-│   └── vite.config.js
-│
-├── .gitignore
-├── LICENSE
-└── README.md
+â”œâ”€â”€ contracts/
+â”‚   â”œâ”€â”€ contracts/
+â”‚   â”‚   â”œâ”€â”€ FieldSeal.sol
+â”‚   â”‚   â””â”€â”€ FieldSeal.t.sol
+â”‚   â”œâ”€â”€ ignition/
+â”‚   â”‚   â””â”€â”€ modules/
+â”‚   â”‚       â””â”€â”€ FieldSeal.ts
+â”‚   â”œâ”€â”€ hardhat.config.ts
+â”‚   â”œâ”€â”€ package.json
+â”‚   â””â”€â”€ package-lock.json
+â”‚
+â”œâ”€â”€ web/
+â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ config/
+â”‚   â”‚   â”‚   â””â”€â”€ wagmi.js
+â”‚   â”‚   â”œâ”€â”€ contracts/
+â”‚   â”‚   â”‚   â””â”€â”€ fieldSeal.js
+â”‚   â”‚   â”œâ”€â”€ App.jsx
+â”‚   â”‚   â”œâ”€â”€ index.css
+â”‚   â”‚   â””â”€â”€ main.jsx
+â”‚   â”œâ”€â”€ .env.example
+â”‚   â”œâ”€â”€ package.json
+â”‚   â””â”€â”€ vite.config.js
+â”‚
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ LICENSE
+â””â”€â”€ README.md
 ```
 
 ## Local Frontend Setup
@@ -323,7 +324,7 @@ Potential extensions include:
 
 ## Hackathon
 
-Built as a solo submission for **Spark — Build Anything onchain that solves a personal problem**.
+Built as a solo submission for **Spark â€” Build Anything onchain that solves a personal problem**.
 
 FieldSeal was created as a focused solution to a problem encountered while developing field-operations software: proving that work was completed and making approval-to-payment faster and more trustworthy.
 
