@@ -29,4 +29,20 @@ export default defineConfig({
       ],
     },
   },
+
+  verify: {
+    blockscout: {
+      enabled: false,
+    },
+
+    etherscan: {
+      enabled: false,
+    },
+
+    sourcify: {
+      enabled: true,
+      apiUrl:
+        "https://sourcify-api-monad.blockvision.org",
+    },
+  },
 });
